@@ -1,6 +1,7 @@
-import re
 import torch
+import os
 import numpy as np
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel
 
 # 의도에 따른 응답 목록
