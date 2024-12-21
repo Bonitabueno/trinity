@@ -1,5 +1,6 @@
-import torch
+import streamlit as st
 import os
+import torch
 import numpy as np
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel
